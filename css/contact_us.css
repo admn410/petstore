@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	min-width: 1280px;
+}
+.header{
+	height: 55px;
+	background-color: #ffffff;
+}
+.logo{
+	float: left;
+	margin-left: 64px;
+	font-size: 21px;
+	color: #393a3a;
+}
+.logo img{
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 13px;
+}
+
+.nav{
+	float: right;
+	margin-right: 14px
+}
+.nav li{
+	float: left;
+	list-style: none;
+	text-align: center;
+	height: 52px;
+	width: 100px;
+	line-height: 52px;
+	border-bottom: 3px solid #fff;
+
+}
+.nav a{
+	text-decoration: none;
+	display: block;
+	font-family: "Microsoft YaHei"; 
+	font-size: 14px;
+}
+.nav a:link,.nav a:visited{
+	color: #787b83;
+}
+.nav a:hover,.nav a:active{
+	color: #ea6b60;
+	border-bottom: 3px solid #ea6b60;
+}
+
+.feature-wrap{
+	height: 690px;
+	background-image: url("../images/section_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.feature-wrap-in{
+	background-color: rgba(0,0,0,0.2);
+	height: 457px;
+	padding-top: 233px;
+
+}
+.feature-wrap-in h1{
+	font-size: 60px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	margin-left: 115px;
+
+}
+.feature-wrap-in p{
+	font-size: 21px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	margin-left:123px;
+	margin-top: 20px;
+}
+.feature-wrap-in input{
+	background-color: #e74f4d;
+	font-size: 30px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	border: none;
+	width: 320px;
+	height: 70px;
+	margin-left: 125px;
+	margin-top: 75px;
+}
+
+
+.footer_contact_title p{
+	font-size: 30px;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: center;
+	background:#afabab;
+	margin:0 auto;
+	vertical-align: middle;
+}
+
+
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.corporate_office {
+	height: 390px;
+	background:#afabab;
+}
+
+.corporate_office h2 {
+	text-align: center;
+	height: 50px;
+}
+
+.corporate_office p {
+	text-align: center;
+	font-size: 30px;
+	color: coral;
+}
+
+.remote1,.remote2{
+	float: left;
+	width: 49.7%;
+	height: 500px;
+	border : 1px solid #000000;
+}
+
+.remote1 h2,.remote2 h2 {
+	text-align: center;
+	height: 50px;
+}
+
+.remote1 p,.remote2 p {
+	text-align: center;
+	font-size: 30px;
+	color: coral;
+}
+
+.social {
+	height: 600px;
+	border : 1px solid #000000;
+	/* background-color: #e74f4d; */
+	text-align: center;
+}

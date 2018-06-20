@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	min-width: 1280px;
+}
+.header{
+	height: 55px;
+	background-color: #ffffff;
+}
+.logo{
+	float: left;
+	margin-left: 64px;
+	font-size: 21px;
+	color: #393a3a;
+}
+.logo img{
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 13px;
+}
+
+.nav{
+	float: right;
+	margin-right: 14px
+}
+.nav li{
+	float: left;
+	list-style: none;
+	text-align: center;
+	height: 52px;
+	width: 100px;
+	line-height: 52px;
+	border-bottom: 3px solid #fff;
+
+}
+.nav a{
+	text-decoration: none;
+	display: block;
+	font-family: "Microsoft YaHei"; 
+	font-size: 14px;
+}
+.nav a:link,.nav a:visited{
+	color: #787b83;
+}
+.nav a:hover,.nav a:active{
+	color: #ea6b60;
+	border-bottom: 3px solid #ea6b60;
+}
+
+.feature-wrap{
+	height: 690px;
+	background-image: url("../images/section_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.feature-wrap-in{
+	background-color: rgba(0,0,0,0.2);
+	height: 457px;
+	padding-top: 233px;
+
+}
+.feature-wrap-in h1{
+	font-size: 60px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	margin-left: 115px;
+
+}
+.feature-wrap-in p{
+	font-size: 21px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	margin-left:123px;
+	margin-top: 20px;
+}
+.feature-wrap-in input{
+	background-color: #e74f4d;
+	font-size: 30px;
+	font-family: "Microsoft YaHei"; 
+	color: #ffffff;
+	border: none;
+	width: 320px;
+	height: 70px;
+	margin-left: 125px;
+	margin-top: 75px;
+}
+
+.history{
+	height: 570px;
+	padding-top: 90px;
+	background-color: #ededec;
+	text-align: center;
+}
+.history h3{
+	font-size: 30px;
+}
+.history p{
+	margin-top: 40px;
+	font-family: "Microsoft YaHei"; 
+	font-size: 30px;
+	/* color: rgba(51,51,51,.5);
+	 */
+	 color: black;
+}
+
+.reason{
+	height: 632px;
+	padding-top: 118px;
+	text-align: center;
+}
+.reason .title h3{
+	font-family: "Microsoft YaHei"; 
+	font-size: 21px;
+	color: #323333;
+	margin-bottom: 8px;
+}
+.reason .title hr{
+	width: 28px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	border:1px solid #e74f4d;
+}
+.reason .title p{
+	font-size: 20px;
+	color: #aaaaaa;
+	margin-right: 429px;
+	margin-left: 429px; 
+	margin-bottom: 102px;
+}
